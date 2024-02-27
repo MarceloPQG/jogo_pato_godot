@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://btkraxqrqxyo1"]
+
+[ext_resource type="Script" path="res://scenes/script/player.gd" id="1_iu58s"]
+[ext_resource type="Texture2D" uid="uid://sbngdiehboho" path="res://scenes/Art Assets/Art Assets/Characters/Duck/Duck (16x16).png" id="1_nuuqt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m366u"]
+size = Vector2(15, 15)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_iu58s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_m366u")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_nuuqt")
+hframes = 2
