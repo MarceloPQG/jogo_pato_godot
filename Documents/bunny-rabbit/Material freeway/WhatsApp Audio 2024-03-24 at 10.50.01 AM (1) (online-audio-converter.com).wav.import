@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/WhatsApp Audio 2024-03-24 at 10.50.01 AM (1) (online-audio-converter.com).wav-ccb6a5d3244b26b6affb376c71b9e204.sample"
+
+[deps]
+
+source_file="res://Material freeway/WhatsApp Audio 2024-03-24 at 10.50.01 AM (1) (online-audio-converter.com).wav"
+dest_files=[ "res://.import/WhatsApp Audio 2024-03-24 at 10.50.01 AM (1) (online-audio-converter.com).wav-ccb6a5d3244b26b6affb376c71b9e204.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
